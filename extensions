@@ -1,0 +1,8 @@
+Pick these extensions:
+• RESTEasy JSON-B: Adds the JSON-B serialization library support for RESTEasy.
+• SmallRye OpenAPI: Documents your REST APIs based on the OpenAPI specification and comes with Swagger UI.
+• Hibernate ORM: Adds all the requirements to define the persistent model with Hibernate ORM as JPA Implementation.
+• Hibernate Validator: Adds the mechanisms for validating the input/ output of the REST APIs and/or the parameters and return values of the methods of your business services.
+• JDBC Driver - PostgreSQL: Adds the requirements to help you connect to the PostgreSQL database via JDBC.
+• Quarkus Extension for Spring Data JPA API: Brings the Spring Data JPA to Quarkus to create your Data Access Layer, as you are used to in Spring Boot.
+• Flyway: Handles the database schema migrations.
