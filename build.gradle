@@ -28,7 +28,7 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
 }
 
-group 'com.livescore'
+group 'com.rmelnik'
 version '1.0.0-SNAPSHOT'
 
 java {
