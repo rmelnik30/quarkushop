@@ -7,3 +7,7 @@ docker run -d --name demo-postgres \
  ./gradlew addExtension --extensions=quarkus-flyway
 
 docker build -f src/main/docker/Dockerfile.multistage -t rmelnik/quarkushop-multistaged .
+
+./gradlew quarkusDev
+
+docker run -p 28080:8080 rmelnik/sample-app-multistaged
