@@ -9,6 +9,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.quarkus:quarkus-flyway'
     implementation 'io.quarkus:quarkus-spring-data-jpa'
     implementation 'io.quarkus:quarkus-hibernate-orm'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")

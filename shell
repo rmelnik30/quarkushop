@@ -1,0 +1,9 @@
+docker run -d --name demo-postgres \
+    -e POSTGRES_USER=rmelnik \
+    -e POSTGRES_PASSWORD=rmelnik \
+    -e POSTGRES_DB=demo \
+    -p 5432:5432 postgres:latest
+
+ ./gradlew addExtension --extensions=quarkus-flyway
+
+docker build -f src/main/docker/Dockerfile.multistage -t rmelnik/quarkushop-multistaged .
