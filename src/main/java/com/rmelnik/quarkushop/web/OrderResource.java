@@ -15,7 +15,7 @@ import java.util.List;
  * @author Nebrass Lamouchi
  */
 
-@Authenticated
+//@Authenticated
 @Path("/orders")
 @Tag(name = "order", description = "All the order methods")
 public class OrderResource {
@@ -23,7 +23,7 @@ public class OrderResource {
     @Inject
     OrderService orderService;
 
-    @RolesAllowed("admin")
+    //@RolesAllowed("admin")
     @GET
     public List<OrderDto> findAll() {
         return this.orderService.findAll();

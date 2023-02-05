@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author Nebrass Lamouchi
  */
-@Authenticated
+//@Authenticated
 @Path("/carts")
 @Tag(name = "cart", description = "All the cart methods")
 public class CartResource {

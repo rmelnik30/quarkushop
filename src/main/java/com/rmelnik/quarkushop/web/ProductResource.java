@@ -38,14 +38,14 @@ public class ProductResource {
         return this.productService.findById(id);
     }
 
-    @RolesAllowed("admin")
+//    @RolesAllowed("admin")
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public ProductDto create(ProductDto productDto) {
         return this.productService.create(productDto);
     }
 
-    @RolesAllowed("admin")
+//    @RolesAllowed("admin")
     @DELETE
     @Path("/{id}")
     public void delete(@PathParam("id") Long id) {
